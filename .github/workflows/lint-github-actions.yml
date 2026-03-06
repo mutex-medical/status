@@ -1,0 +1,65 @@
+name: Lint GitHub Actions
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "**/.github/workflows/*.yml"
+      - "**/.github/actions/**/action.yml"
+      - "**/.pinact.yml"
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - "**/.github/workflows/*.yml"
+      - "**/.github/actions/**/action.yml"
+      - "**/.pinact.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-lint-github-actions
+  cancel-in-progress: true
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  run-zizmor:
+    name: Run zizmor 🌈
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read # only needed for private repos
+      actions: read # only needed for private repos
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Run zizmor 🌈
+        # cSpell:disable
+        uses: zizmorcore/zizmor-action@0dce2577a4760a2749d8cfb7a84b7d5585ebcb7d # v0.5.0
+        with:
+          persona: auditor
+          advanced-security: false
+          online-audits: true
+
+  run-pinact:
+    name: Run pinact 🤖
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Run pinact 🤖
+        # cSpell:disable
+        uses: suzuki-shunsuke/pinact-action@1081f5ad49ac904b7d977784f338145150a32112 # v1.4.0

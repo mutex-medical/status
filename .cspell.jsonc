@@ -1,0 +1,23 @@
+{
+  "ignorePaths": [
+    "dist",
+    "build",
+    "coverage",
+    "public",
+    "out",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/.vscode/**",
+    "**/.next/**",
+    "**/__generated__/**",
+    "**/package.json",
+    "scripts/cli",
+    "bun.lock*"
+  ],
+  "words": [
+    "binstall",
+    "pinact",
+    "reze",
+    "zizmor"
+  ]
+}
