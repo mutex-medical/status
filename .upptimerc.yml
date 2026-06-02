@@ -155,7 +155,7 @@ status-website:
       href: https://lp.reze.app/
 
   # Theme
-  theme: dark
+  theme: light
 
   # Localization
   i18n:
