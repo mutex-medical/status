@@ -165,7 +165,7 @@ i18n:
   activeIncidents: "発生中のインシデント"
   allSystemsOperational: "すべてのシステムが正常に稼働しています"
   incidentReport: "インシデント #$NUMBER のレポート →"
-  activeIncidentSummary: "$OPENED 前に報告 / 投稿 $POSTS 件"
+  activeIncidentSummary: "$DATE に報告 / 投稿 $POSTS 件"
   incidentTitle: "インシデント $NUMBER の詳細"
   incidentDetails: "インシデントの詳細"
   incidentFixed: "解決済み"
