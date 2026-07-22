@@ -32,15 +32,15 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: Authentication
-    url: $STATUS_API_ENDPOINT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-      - "x-api-key: $STATUS_API_KEY"
-    body: '{"type":"public","subdomain":"auth"}'
-    expectedStatusCodes:
-      - 200
+  # - name: Authentication
+  #   url: $STATUS_API_ENDPOINT
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #     - "x-api-key: $STATUS_API_KEY"
+  #   body: '{"type":"public","subdomain":"auth"}'
+  #   expectedStatusCodes:
+  #     - 200
 
   - name: Storage
     url: $STATUS_API_ENDPOINT
@@ -102,15 +102,15 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: "[Internal] Authentication"
-    url: $STATUS_API_ENDPOINT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-      - "x-api-key: $STATUS_API_KEY"
-    body: '{"type":"internal","subdomain":"auth"}'
-    expectedStatusCodes:
-      - 200
+  # - name: "[Internal] Authentication"
+  #   url: $STATUS_API_ENDPOINT
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #     - "x-api-key: $STATUS_API_KEY"
+  #   body: '{"type":"internal","subdomain":"auth"}'
+  #   expectedStatusCodes:
+  #     - 200
 
   - name: "[Internal] Storage"
     url: $STATUS_API_ENDPOINT
