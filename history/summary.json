@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 2113,
-    "timeDay": 2252,
-    "timeWeek": 2088,
-    "timeMonth": 2054,
-    "timeYear": 2113,
+    "time": 2103,
+    "timeDay": 1563,
+    "timeWeek": 1936,
+    "timeMonth": 2016,
+    "timeYear": 2103,
     "dailyMinutesDown": {
       "2026-06-27": 59
     }
@@ -31,9 +31,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 597,
-    "timeDay": 525,
-    "timeWeek": 539,
-    "timeMonth": 574,
+    "timeDay": 578,
+    "timeWeek": 550,
+    "timeMonth": 576,
     "timeYear": 597,
     "dailyMinutesDown": {
       "2026-06-27": 54
@@ -50,34 +50,13 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
-    "time": 600,
-    "timeDay": 497,
-    "timeWeek": 555,
-    "timeMonth": 571,
-    "timeYear": 600,
+    "time": 601,
+    "timeDay": 605,
+    "timeWeek": 575,
+    "timeMonth": 576,
+    "timeYear": 601,
     "dailyMinutesDown": {
       "2026-06-27": 49
-    }
-  },
-  {
-    "name": "Storage",
-    "url": "$STATUS_API_ENDPOINT",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "storage",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
-    "time": 713,
-    "timeDay": 528,
-    "timeWeek": 603,
-    "timeMonth": 654,
-    "timeYear": 713,
-    "dailyMinutesDown": {
-      "2026-06-27": 40,
-      "2026-10-16": 0
     }
   },
   {
@@ -91,11 +70,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 814,
-    "timeDay": 858,
-    "timeWeek": 745,
-    "timeMonth": 749,
-    "timeYear": 814,
+    "time": 813,
+    "timeDay": 768,
+    "timeWeek": 736,
+    "timeMonth": 747,
+    "timeYear": 813,
     "dailyMinutesDown": {
       "2026-06-27": 35
     }
@@ -111,11 +90,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 735,
-    "timeDay": 647,
+    "time": 734,
+    "timeDay": 638,
     "timeWeek": 630,
-    "timeMonth": 732,
-    "timeYear": 735,
+    "timeMonth": 729,
+    "timeYear": 734,
     "dailyMinutesDown": {
       "2026-06-27": 30
     }
@@ -132,9 +111,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 684,
-    "timeDay": 778,
-    "timeWeek": 753,
-    "timeMonth": 723,
+    "timeDay": 709,
+    "timeWeek": 739,
+    "timeMonth": 720,
     "timeYear": 684,
     "dailyMinutesDown": {
       "2026-06-27": 25
@@ -151,11 +130,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 550,
-    "timeDay": 559,
-    "timeWeek": 519,
-    "timeMonth": 539,
-    "timeYear": 550,
+    "time": 551,
+    "timeDay": 610,
+    "timeWeek": 537,
+    "timeMonth": 543,
+    "timeYear": 551,
     "dailyMinutesDown": {
       "2026-06-27": 20
     }
@@ -171,33 +150,13 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 574,
-    "timeDay": 456,
-    "timeWeek": 489,
-    "timeMonth": 522,
-    "timeYear": 574,
+    "time": 575,
+    "timeDay": 545,
+    "timeWeek": 507,
+    "timeMonth": 526,
+    "timeYear": 575,
     "dailyMinutesDown": {
       "2026-06-27": 16
-    }
-  },
-  {
-    "name": "[Internal] Storage",
-    "url": "$STATUS_API_ENDPOINT",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "internal-storage",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 679,
-    "timeDay": 1356,
-    "timeWeek": 1002,
-    "timeMonth": 722,
-    "timeYear": 679,
-    "dailyMinutesDown": {
-      "2026-10-16": 0
     }
   },
   {
@@ -211,11 +170,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 686,
-    "timeDay": 617,
-    "timeWeek": 674,
-    "timeMonth": 732,
-    "timeYear": 686,
+    "time": 687,
+    "timeDay": 725,
+    "timeWeek": 694,
+    "timeMonth": 735,
+    "timeYear": 687,
     "dailyMinutesDown": {}
   }
 ]
