@@ -64,19 +64,20 @@
     "url": "$STATUS_API_ENDPOINT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "storage",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 715,
-    "timeDay": 545,
-    "timeWeek": 616,
-    "timeMonth": 659,
-    "timeYear": 715,
+    "time": 713,
+    "timeDay": 528,
+    "timeWeek": 603,
+    "timeMonth": 654,
+    "timeYear": 713,
     "dailyMinutesDown": {
-      "2026-06-27": 40
+      "2026-06-27": 40,
+      "2026-10-16": 0
     }
   },
   {
@@ -184,18 +185,20 @@
     "url": "$STATUS_API_ENDPOINT",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "internal-storage",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 668,
-    "timeDay": 629,
-    "timeWeek": 847,
-    "timeMonth": 677,
-    "timeYear": 668,
-    "dailyMinutesDown": {}
+    "time": 679,
+    "timeDay": 1356,
+    "timeWeek": 1002,
+    "timeMonth": 722,
+    "timeYear": 679,
+    "dailyMinutesDown": {
+      "2026-10-16": 0
+    }
   },
   {
     "name": "[Internal] Documentation",
