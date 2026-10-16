@@ -42,15 +42,15 @@ sites:
   #   expectedStatusCodes:
   #     - 200
 
-  - name: Storage
-    url: $STATUS_API_ENDPOINT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-      - "x-api-key: $STATUS_API_KEY"
-    body: '{"type":"public","subdomain":"storage"}'
-    expectedStatusCodes:
-      - 200
+  # - name: Storage
+  #   url: $STATUS_API_ENDPOINT
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #     - "x-api-key: $STATUS_API_KEY"
+  #   body: '{"type":"public","subdomain":"storage"}'
+  #   expectedStatusCodes:
+  #     - 200
 
   - name: Documentation
     url: $STATUS_API_ENDPOINT
@@ -112,15 +112,15 @@ sites:
   #   expectedStatusCodes:
   #     - 200
 
-  - name: "[Internal] Storage"
-    url: $STATUS_API_ENDPOINT
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-      - "x-api-key: $STATUS_API_KEY"
-    body: '{"type":"internal","subdomain":"storage"}'
-    expectedStatusCodes:
-      - 200
+  # - name: "[Internal] Storage"
+  #   url: $STATUS_API_ENDPOINT
+  #   method: POST
+  #   headers:
+  #     - "Content-Type: application/json"
+  #     - "x-api-key: $STATUS_API_KEY"
+  #   body: '{"type":"internal","subdomain":"storage"}'
+  #   expectedStatusCodes:
+  #     - 200
 
   - name: "[Internal] Documentation"
     url: $STATUS_API_ENDPOINT
